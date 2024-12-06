@@ -73,7 +73,7 @@ export default function Indonesiaparticipants() {
             </p>
             <p>
               2. Setelah memastikan data sudah benar, Anda dapat mengklik tombol
-              <span className="fw-bold"> &quot;KIRIM&quot;</span> cukup sekali
+              <span className="fw-bold">KIRIM</span> cukup sekali
               saja. Jika data telah berhasil dikirimkan, Anda akan dipindahkan
               ke halaman lain.
             </p>
