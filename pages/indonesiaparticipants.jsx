@@ -18,7 +18,7 @@ export default function Indonesiaparticipants() {
 
   useEffect(() => {
     const scriptURL =
-      "https://script.google.com/macros/s/AKfycbzi9adSnPzqmRMNg1FGgcUUMPKH2QZDWHR6_O9BsNq7YAsg7bUJZMt19ENy1v9HW2a69Q/exec";
+      "https://script.google.com/macros/s/AKfycbzd4vLraKOG-rUa_zxMyALI6Cm_I1RsSGDwGp4FmBE4SjxD7ZRpQbbPiH4d3R5IzKZmkw/exec";
 
     const form = document.forms["regist-form"];
     var buttonCounter = 0;
@@ -62,7 +62,7 @@ export default function Indonesiaparticipants() {
             <br />
             <br />
             <h4>
-              HALLO PESERTA IYMO 2025, Mohon perhatikan informasi berikut ini
+              HALLO PESERTA IYBO 2025, Mohon perhatikan informasi berikut ini
               sebelum mengisi formulir pendaftaran :
             </h4>
             <br />
@@ -282,17 +282,8 @@ export default function Indonesiaparticipants() {
                     required
                   >
                     <option value="">--Pilih Jenjang Pendidikan Anda--</option>
-                    <option value="Sekolah Dasar">
-                      Sekolah Dasar
-                    </option>
-                    <option value="Sekolah Menengah Pertama">
-                      Sekolah Menengah Pertama
-                    </option>
                     <option value="Sekolah Menengah Atas">
                       Sekolah Menengah Atas
-                    </option>
-                    <option value="Universitas">
-                      Universitas
                     </option>
                   </select>
                 </div>
@@ -401,7 +392,7 @@ export default function Indonesiaparticipants() {
                 </div>
                 <div className="input-box">
                   <label for="SUMBER_INFORMASI" className="form-label">
-                    Sumber Informasi Kompetisi IYMO 2025
+                    Sumber Informasi Kompetisi IYBO 2025
                   </label>
                   <select
                     type="text"
@@ -413,16 +404,16 @@ export default function Indonesiaparticipants() {
                   >
                     <option value="">--Pilih Sumber Informasi--</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
-                    <option value="IYMO Instagram">IYMO Instagram</option>
+                    <option value="IYBO Instagram">IYBO Instagram</option>
                     <option value="Pembimbing/Sekolah">
                       Pembimbing/Sekolah
                     </option>
                     <option value="IYSA FaceBook">IYSA FaceBook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
                     <option value="IYSA Website">IYSA Website</option>
-                    <option value="IYMO Website">IYMO Website</option>
+                    <option value="IYBO Website">IYBO Website</option>
                     <option value="IYSA Email">IYSA Email</option>
-                    <option value="IYMO Email">IYMO Email</option>
+                    <option value="IYBO Email">IYBO Email</option>
                     <option value="Acara Sebelumnya">Acara Sebelumnya</option>
                     <option value="Lainnya">Lainnya</option>
                   </select>

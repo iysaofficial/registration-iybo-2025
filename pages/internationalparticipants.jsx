@@ -18,7 +18,7 @@ export default function Internationalaparticipants() {
 
   useEffect(() => {
     const scriptURL =
-      "https://script.google.com/macros/s/AKfycbyMbc4Vfeqr8oAo66W3hLWAwoqKsxLONnU_HMZxt5YUq9zQkG-VP-Kw7fwYw7tkSLBEsA/exec";
+      "https://script.google.com/macros/s/AKfycbw3PXi51ddfb1hj3pjoE_Gf_zWHRVQuykRX-8aKedVOmmNLkBykpGq2oGEE9MBynxto8w/exec";
 
     const form = document.forms["regist-form"];
     var buttonCounter = 0;
@@ -62,7 +62,7 @@ export default function Internationalaparticipants() {
             <br />
             <br />
             <h4>
-            HELLO IYMO 2025 PARTICIPANTS, Please consider the following information before filling out the registration form :
+            HELLO IYBO 2025 PARTICIPANTS, Please consider the following information before filling out the registration form :
             </h4>
             <br />
             <p>
@@ -299,17 +299,8 @@ export default function Internationalaparticipants() {
                     required
                   >
                     <option value="">--Choose Your Grade--</option>
-                    <option value="Elementary School">
-                      Elementary School
-                    </option>
-                    <option value="Junior High School">
-                      Junior High School
-                    </option>
                     <option value="Senior High School">
                       Senior High School
-                    </option>
-                    <option value="University">
-                      University
                     </option>
                   </select>
                 </div>
@@ -418,7 +409,7 @@ export default function Internationalaparticipants() {
                 </div>
                 <div className="input-box">
                   <label for="INFORMATION_RESOURCES" className="form-label">
-                    IYMO 2025 Competition Information Resources
+                    IYBO 2025 Competition Information Resources
                   </label>
                   <select
                     type="text"
@@ -430,16 +421,16 @@ export default function Internationalaparticipants() {
                   >
                     <option value="">--Select the Source of Information--</option>
                     <option value="IYSA Instagram">IYSA Instagram</option>
-                    <option value="IYMO Instagram">IYMO Instagram</option>
+                    <option value="IYBO Instagram">IYBO Instagram</option>
                     <option value="Supervisor/School">
                       Supervisor/School
                     </option>
                     <option value="IYSA FaceBook">IYSA FaceBook</option>
                     <option value="IYSA Linkedin">IYSA Linkedin</option>
                     <option value="IYSA Website">IYSA Website</option>
-                    <option value="IYMO Website">IYMO Website</option>
+                    <option value="IYBO Website">IYBO Website</option>
                     <option value="IYSA Email">IYSA Email</option>
-                    <option value="IYMO Email">IYMO Email</option>
+                    <option value="IYBO Email">IYBO Email</option>
                     <option value="Previous Event">Previous Event</option>
                     <option value="Etc">Etc</option>
                   </select>
